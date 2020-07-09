@@ -8,4 +8,6 @@ final results = data.each_with_object({}) do |(key, value), final_array
         end
         if !final_array[name][key]
           !final_array[name][key] = []
+        end 
+        
 end
